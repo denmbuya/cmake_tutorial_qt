@@ -1,0 +1,8 @@
+# ninja log v5
+9	816	1723619916890656055	CMakeFiles/Projthree.dir/main.cpp.o	3d5961874c4fbb8b
+11	830	1723619916906656462	CMakeFiles/Projthree.dir/src/log.cpp.o	e6c67bccf35516b3
+8	218	1723619916294640877	CMakeFiles/operations.dir/src/operation.cpp.o	4402ef26b0afe778
+13	854	1723619916930657073	CMakeFiles/Projthree.dir/src/dog.cpp.o	694d9f13f568a27f
+854	968	1723619917042659924	Projthree	6b7109755e2d929b
+5	14	0	clean	a31eedcededa8236
+219	465	1723619916534646989	liboperations.a	9237d33c88a264a4

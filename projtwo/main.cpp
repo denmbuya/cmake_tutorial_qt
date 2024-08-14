@@ -4,7 +4,7 @@
 
 int main(){
 
-   Dog dog1("annna");
+   Dog dog1("anna");
    dog1.print_info();
     return 0;
 }

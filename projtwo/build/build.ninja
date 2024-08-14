@@ -12,7 +12,7 @@
 
 # =============================================================================
 # Project: Dog
-# Configurations: Debug
+# Configurations: 
 # =============================================================================
 
 #############################################
@@ -20,11 +20,6 @@
 
 ninja_required_version = 1.5
 
-
-#############################################
-# Set configuration variable for custom commands.
-
-CONFIGURATION = Debug
 # =============================================================================
 # Include auxiliary files.
 
@@ -49,29 +44,32 @@ cmake_ninja_workdir = /home/denismbuya/Systemprogramming/cmake_tutorial_qt/projt
 
 build cmake_object_order_depends_target_Dog: phony || CMakeFiles/Dog.dir
 
-build CMakeFiles/Dog.dir/main.cpp.o: CXX_COMPILER__Dog_unscanned_Debug /home/denismbuya/Systemprogramming/cmake_tutorial_qt/projtwo/main.cpp || cmake_object_order_depends_target_Dog
+build CMakeFiles/Dog.dir/main.cpp.o: CXX_COMPILER__Dog_unscanned_ /home/denismbuya/Systemprogramming/cmake_tutorial_qt/projtwo/main.cpp || cmake_object_order_depends_target_Dog
   DEFINES = -Dcxx_std_17
   DEP_FILE = CMakeFiles/Dog.dir/main.cpp.o.d
-  FLAGS = -g
   INCLUDES = -I/home/denismbuya/Systemprogramming/cmake_tutorial_qt/projtwo/include
   OBJECT_DIR = CMakeFiles/Dog.dir
   OBJECT_FILE_DIR = CMakeFiles/Dog.dir
+  TARGET_COMPILE_PDB = CMakeFiles/Dog.dir/
+  TARGET_PDB = Dog.pdb
 
-build CMakeFiles/Dog.dir/src/dog.cpp.o: CXX_COMPILER__Dog_unscanned_Debug /home/denismbuya/Systemprogramming/cmake_tutorial_qt/projtwo/src/dog.cpp || cmake_object_order_depends_target_Dog
+build CMakeFiles/Dog.dir/src/dog.cpp.o: CXX_COMPILER__Dog_unscanned_ /home/denismbuya/Systemprogramming/cmake_tutorial_qt/projtwo/src/dog.cpp || cmake_object_order_depends_target_Dog
   DEFINES = -Dcxx_std_17
   DEP_FILE = CMakeFiles/Dog.dir/src/dog.cpp.o.d
-  FLAGS = -g
   INCLUDES = -I/home/denismbuya/Systemprogramming/cmake_tutorial_qt/projtwo/include
   OBJECT_DIR = CMakeFiles/Dog.dir
   OBJECT_FILE_DIR = CMakeFiles/Dog.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/Dog.dir/
+  TARGET_PDB = Dog.pdb
 
-build CMakeFiles/Dog.dir/src/operations.cpp.o: CXX_COMPILER__Dog_unscanned_Debug /home/denismbuya/Systemprogramming/cmake_tutorial_qt/projtwo/src/operations.cpp || cmake_object_order_depends_target_Dog
+build CMakeFiles/Dog.dir/src/operations.cpp.o: CXX_COMPILER__Dog_unscanned_ /home/denismbuya/Systemprogramming/cmake_tutorial_qt/projtwo/src/operations.cpp || cmake_object_order_depends_target_Dog
   DEFINES = -Dcxx_std_17
   DEP_FILE = CMakeFiles/Dog.dir/src/operations.cpp.o.d
-  FLAGS = -g
   INCLUDES = -I/home/denismbuya/Systemprogramming/cmake_tutorial_qt/projtwo/include
   OBJECT_DIR = CMakeFiles/Dog.dir
   OBJECT_FILE_DIR = CMakeFiles/Dog.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/Dog.dir/
+  TARGET_PDB = Dog.pdb
 
 
 # =============================================================================
@@ -81,13 +79,13 @@ build CMakeFiles/Dog.dir/src/operations.cpp.o: CXX_COMPILER__Dog_unscanned_Debug
 #############################################
 # Link the executable Dog
 
-build Dog: CXX_EXECUTABLE_LINKER__Dog_Debug CMakeFiles/Dog.dir/main.cpp.o CMakeFiles/Dog.dir/src/dog.cpp.o CMakeFiles/Dog.dir/src/operations.cpp.o
-  FLAGS = -g
+build Dog: CXX_EXECUTABLE_LINKER__Dog_ CMakeFiles/Dog.dir/main.cpp.o CMakeFiles/Dog.dir/src/dog.cpp.o CMakeFiles/Dog.dir/src/operations.cpp.o
   OBJECT_DIR = CMakeFiles/Dog.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/Dog.dir/
   TARGET_FILE = Dog
-  TARGET_PDB = Dog.dbg
+  TARGET_PDB = Dog.pdb
 
 
 #############################################
@@ -132,14 +130,14 @@ build all: phony Dog
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/denismbuya/Systemprogramming/cmake_tutorial_qt/projtwo/CMakeLists.txt /usr/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.27/Modules/Compiler/GNU.cmake /usr/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.27/Modules/Platform/Linux.cmake /usr/share/cmake-3.27/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.4/CMakeCXXCompiler.cmake CMakeFiles/3.27.4/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/denismbuya/Systemprogramming/cmake_tutorial_qt/projtwo/CMakeLists.txt /usr/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.27/Modules/CMakeCompilerIdDetection.cmake /usr/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake /usr/share/cmake-3.27/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake /usr/share/cmake-3.27/Modules/CMakeFindBinUtils.cmake /usr/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.27/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/share/cmake-3.27/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake-3.27/Modules/CMakeParseLibraryArchitecture.cmake /usr/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake-3.27/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake-3.27/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/share/cmake-3.27/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.27/Modules/Compiler/GNU-FindBinUtils.cmake /usr/share/cmake-3.27/Modules/Compiler/GNU.cmake /usr/share/cmake-3.27/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/share/cmake-3.27/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/NVHPC-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/TI-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/Tasking-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake /usr/share/cmake-3.27/Modules/Platform/Linux-Determine-CXX.cmake /usr/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.27/Modules/Platform/Linux.cmake /usr/share/cmake-3.27/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.4/CMakeCXXCompiler.cmake CMakeFiles/3.27.4/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/denismbuya/Systemprogramming/cmake_tutorial_qt/projtwo/CMakeLists.txt /usr/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.27/Modules/Compiler/GNU.cmake /usr/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.27/Modules/Platform/Linux.cmake /usr/share/cmake-3.27/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.4/CMakeCXXCompiler.cmake CMakeFiles/3.27.4/CMakeSystem.cmake: phony
+build /home/denismbuya/Systemprogramming/cmake_tutorial_qt/projtwo/CMakeLists.txt /usr/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.27/Modules/CMakeCompilerIdDetection.cmake /usr/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake /usr/share/cmake-3.27/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake /usr/share/cmake-3.27/Modules/CMakeFindBinUtils.cmake /usr/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.27/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/share/cmake-3.27/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake-3.27/Modules/CMakeParseLibraryArchitecture.cmake /usr/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake-3.27/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake-3.27/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/share/cmake-3.27/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.27/Modules/Compiler/GNU-FindBinUtils.cmake /usr/share/cmake-3.27/Modules/Compiler/GNU.cmake /usr/share/cmake-3.27/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/share/cmake-3.27/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/NVHPC-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/TI-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/Tasking-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake /usr/share/cmake-3.27/Modules/Platform/Linux-Determine-CXX.cmake /usr/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.27/Modules/Platform/Linux.cmake /usr/share/cmake-3.27/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.4/CMakeCXXCompiler.cmake CMakeFiles/3.27.4/CMakeSystem.cmake: phony
 
 
 #############################################

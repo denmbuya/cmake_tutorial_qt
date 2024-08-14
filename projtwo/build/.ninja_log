@@ -1,22 +1,9 @@
 # ninja log v5
 5	25	0	help	26b1588d32d273bc
-1	82	1723604862770719889	build.ninja	6bcf2b20314aac85
-6	614	1723604163207530842	CMakeFiles/Dog.dir/main.cpp.o	31f18124ffc5a166
-8	116	1723604162711516310	CMakeFiles/Dog.dir/src/operations.cpp.o	47ec52b53df323a0
-2	8	0	clean	a31eedcededa8236
-6	594	1723604163187530266	CMakeFiles/Dog.dir/src/dog.cpp.o	afd819b6b48b3f9f
-614	738	1723604163331534418	Dog	dd4a45d57e25e09f
-5	111	1723604882137654952	CMakeFiles/Dog.dir/src/operations.cpp.o	47ec52b53df323a0
-4	523	1723604882549632761	CMakeFiles/Dog.dir/src/dog.cpp.o	afd819b6b48b3f9f
-3	552	1723604882573631469	CMakeFiles/Dog.dir/main.cpp.o	31f18124ffc5a166
-552	693	1723604882717623713	Dog	dd4a45d57e25e09f
-2	9	0	clean	a31eedcededa8236
-10	63	1723604944990465581	CMakeFiles/Dog.dir/src/operations.cpp.o	47ec52b53df323a0
-6	566	1723604945494441496	CMakeFiles/Dog.dir/src/dog.cpp.o	afd819b6b48b3f9f
-6	582	1723604945510440732	CMakeFiles/Dog.dir/main.cpp.o	31f18124ffc5a166
-582	721	1723604945650434042	Dog	dd4a45d57e25e09f
-1	10	0	clean	a31eedcededa8236
-8	72	1723605024334912950	CMakeFiles/Dog.dir/src/operations.cpp.o	47ec52b53df323a0
+1	82	1723610761281990413	build.ninja	6bcf2b20314aac85
 3	562	1723605024822892450	CMakeFiles/Dog.dir/main.cpp.o	31f18124ffc5a166
+8	72	1723605024334912950	CMakeFiles/Dog.dir/src/operations.cpp.o	47ec52b53df323a0
+1	10	0	clean	a31eedcededa8236
 3	700	1723605024962886570	CMakeFiles/Dog.dir/src/dog.cpp.o	afd819b6b48b3f9f
 701	883	1723605025142879017	Dog	dd4a45d57e25e09f
+3	10	0	help	26b1588d32d273bc
