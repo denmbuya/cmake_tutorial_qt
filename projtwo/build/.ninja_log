@@ -1,0 +1,4 @@
+# ninja log v5
+3	18	0	help	26b1588d32d273bc
+1	82	1723603414471920074	build.ninja	6bcf2b20314aac85
+1	428	1723574793185962879	CMakeFiles/Dog.dir/main.cpp.o	31f18124ffc5a166
