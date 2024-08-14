@@ -57,6 +57,22 @@ build CMakeFiles/Dog.dir/main.cpp.o: CXX_COMPILER__Dog_unscanned_Debug /home/den
   OBJECT_DIR = CMakeFiles/Dog.dir
   OBJECT_FILE_DIR = CMakeFiles/Dog.dir
 
+build CMakeFiles/Dog.dir/src/dog.cpp.o: CXX_COMPILER__Dog_unscanned_Debug /home/denismbuya/Systemprogramming/cmake_tutorial_qt/projtwo/src/dog.cpp || cmake_object_order_depends_target_Dog
+  DEFINES = -Dcxx_std_17
+  DEP_FILE = CMakeFiles/Dog.dir/src/dog.cpp.o.d
+  FLAGS = -g
+  INCLUDES = -I/home/denismbuya/Systemprogramming/cmake_tutorial_qt/projtwo/include
+  OBJECT_DIR = CMakeFiles/Dog.dir
+  OBJECT_FILE_DIR = CMakeFiles/Dog.dir/src
+
+build CMakeFiles/Dog.dir/src/operations.cpp.o: CXX_COMPILER__Dog_unscanned_Debug /home/denismbuya/Systemprogramming/cmake_tutorial_qt/projtwo/src/operations.cpp || cmake_object_order_depends_target_Dog
+  DEFINES = -Dcxx_std_17
+  DEP_FILE = CMakeFiles/Dog.dir/src/operations.cpp.o.d
+  FLAGS = -g
+  INCLUDES = -I/home/denismbuya/Systemprogramming/cmake_tutorial_qt/projtwo/include
+  OBJECT_DIR = CMakeFiles/Dog.dir
+  OBJECT_FILE_DIR = CMakeFiles/Dog.dir/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Dog
@@ -65,7 +81,7 @@ build CMakeFiles/Dog.dir/main.cpp.o: CXX_COMPILER__Dog_unscanned_Debug /home/den
 #############################################
 # Link the executable Dog
 
-build Dog: CXX_EXECUTABLE_LINKER__Dog_Debug CMakeFiles/Dog.dir/main.cpp.o
+build Dog: CXX_EXECUTABLE_LINKER__Dog_Debug CMakeFiles/Dog.dir/main.cpp.o CMakeFiles/Dog.dir/src/dog.cpp.o CMakeFiles/Dog.dir/src/operations.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Dog.dir
   POST_BUILD = :
