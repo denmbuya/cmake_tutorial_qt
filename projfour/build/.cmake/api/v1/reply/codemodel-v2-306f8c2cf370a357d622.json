@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Projfour",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Projfour::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Projfour-Debug-ff2fb651a88a6a9c2f66.json",
+					"name" : "Projfour",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libmath::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libmath-Debug-ea7c4959326d4671aac5.json",
+					"name" : "libmath",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libstat::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libstat-Debug-959722a146a962ddf31c.json",
+					"name" : "libstat",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/denismbuya/Systemprogramming/cmake_tutorial_qt/projfour/build",
+		"source" : "/home/denismbuya/Systemprogramming/cmake_tutorial_qt/projfour"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
