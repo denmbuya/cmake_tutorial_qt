@@ -1,0 +1,7 @@
+# ninja log v5
+1	550	1723712075366958845	CMakeFiles/Projfour.dir/src/main.cpp.o	f1f1303b198befc4
+280	385	1723712075194964293	src/stats/liblibstat.a	7c45b0670586008e
+79	280	1723712075090967586	src/math/liblibmath.a	e24c105df28d4a63
+550	653	1723712075466955679	Projfour	12c67510292f80f1
+2	103	1723712074918973151	src/stats/CMakeFiles/libstat.dir/stats.cpp.o	2adba943e1dfe540
+2	79	1723712074894973945	src/math/CMakeFiles/libmath.dir/supermath.cpp.o	9f8ec68067e1f3d3
